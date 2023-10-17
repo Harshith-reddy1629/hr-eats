@@ -1,0 +1,65 @@
+.restaurant-item {
+  all: unset;
+  box-sizing: border-box;
+  width: 30%;
+  margin: 12px;
+  display: flex;
+  gap: 18px;
+  /* background-color: #fff; */
+  background: linear-gradient(130deg, #fff, #fff, #fff, goldenrod);
+  padding: 15px;
+  border-radius: 14px;
+  text-shadow: 0 0 1px #000;
+  color: #fffffffa;
+  box-shadow: 0 0 9px #777;
+}
+
+.restaurant-item:hover {
+  scale: 102%;
+}
+
+.restaurant-img {
+  height: 120px;
+  min-width: 150px;
+  width: 150px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px #444;
+}
+@media (max-width: 768px) {
+  .restaurant-item {
+    width: 80%;
+    gap: 8px;
+    padding: 14px;
+    flex-direction: column;
+  }
+  .restaurant-img {
+    min-width: 140px;
+    height: 110px;
+    margin: auto;
+  }
+}
+.restaurant-name {
+  margin: 0;
+  font-family: "young serif";
+}
+.restaurant-type {
+  all: unset;
+  font-family: "young serif";
+  font-size: 12px;
+}
+
+.restaurant-rating {
+  font-family: "young serif";
+  font-size: 13px;
+}
+@media (max-width: 768px) {
+  .restaurant-rating {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+.address {
+  font-size: 10px;
+  font-family: "young serif";
+  margin: 3px 0 0 0;
+}

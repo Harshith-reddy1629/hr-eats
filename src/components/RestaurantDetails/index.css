@@ -1,0 +1,114 @@
+.restaurant-banner {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 20px 160px;
+  width: 100%;
+  /* background-color: #999; */
+  background-size: cover !important;
+  background-position: 50% !important;
+}
+
+.restaurant-page-image {
+  height: 230px;
+}
+
+.restaurant-name-page {
+  margin: 6px 0 0 0;
+  font-size: 27px;
+  font-family: "young serif";
+  color: #fff;
+}
+
+.restaurant-desc-page {
+  margin: 4px 0 0 0;
+  font-size: 13px;
+  font-family: "young serif";
+  color: #ffffff99;
+}
+
+.ratings-container {
+  display: flex;
+  margin-top: 8px;
+  /* gap: 12px; */
+}
+.rating-container {
+}
+
+.rating-text {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 13px;
+  font-family: "Bodoni Moda";
+  font-weight: bold;
+  color: #ffffff;
+  margin: 4px;
+}
+hr {
+  margin: 6px 20px;
+}
+@media (max-width: 768px) {
+  .restaurant-banner {
+    /* flex-direction: column; */
+    padding: 10px 10px;
+    gap: 12px;
+  }
+  .restaurant-page-image {
+    height: 100px;
+  }
+  .restaurant-name-page {
+    font-size: 16px;
+  }
+  .restaurant-desc-page {
+    font-size: 10px;
+    margin: 0;
+  }
+  .ratings-container {
+    margin-top: 4px;
+  }
+  .rating-text {
+    font-size: 12px;
+    margin: 3px;
+  }
+}
+.food-item-card {
+  display: flex;
+  background-color: #11111125;
+  border-radius: 8px;
+  width: 30%;
+  padding: 18px;
+  gap: 15px;
+  box-shadow: 0 0 9px #99999955;
+}
+.food-img {
+  height: 120px;
+  width: 150px;
+}
+.food-heading {
+  font-family: "young serif";
+  margin: 0;
+  font-size: 17px;
+  color: #ffffffcc;
+}
+.food-cost {
+  font-family: "DM Serif Display";
+  font-weight: bold;
+  margin: 0;
+  color: #ffffffcc;
+  display: flex;
+  align-items: center;
+}
+.food-rating {
+  color: #585555dd;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+@media (max-width: 768px) {
+  .food-item-card {
+    width: 90%;
+    gap: 10px;
+    padding: 10px;
+  }
+}
