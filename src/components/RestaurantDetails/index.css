@@ -1,10 +1,11 @@
 .restaurant-banner {
+  box-sizing: border-box;
   margin-top: 15px;
   display: flex;
   align-items: center;
   gap: 32px;
   padding: 20px 160px;
-  width: 100%;
+  width: 100vw;
   /* background-color: #999; */
   background-size: cover !important;
   background-position: 50% !important;
@@ -12,6 +13,7 @@
 
 .restaurant-page-image {
   height: 230px;
+  width: 200px;
 }
 
 .restaurant-name-page {
@@ -76,7 +78,7 @@ hr {
 .food-item-card {
   display: flex;
   background-color: #11111125;
-  border-radius: 8px;
+  border-radius: 12px;
   width: 30%;
   padding: 18px;
   gap: 15px;
@@ -110,5 +112,8 @@ hr {
     width: 90%;
     gap: 10px;
     padding: 10px;
+  }
+  .re {
+    width: 100vw;
   }
 }

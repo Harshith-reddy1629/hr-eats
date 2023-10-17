@@ -85,7 +85,7 @@ class RestaurantDetails extends Component {
       costForTwo,
     } = restaurantDetails;
     return (
-      <div className="">
+      <div className="re">
         <Header />
         <div
           style={{

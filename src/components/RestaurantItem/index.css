@@ -12,10 +12,12 @@
   text-shadow: 0 0 1px #000;
   color: #fffffffa;
   box-shadow: 0 0 9px #777;
+  transition: background-position 0.6s;
 }
 
 .restaurant-item:hover {
   scale: 102%;
+  background-position: 50% 50% !important;
 }
 
 .restaurant-img {

@@ -13,14 +13,6 @@ function App() {
   const isValidUser = !Cookies.get("jwt_token");
   return (
     <>
-      {/* <Link
-        to="/"
-      >
-        Home
-      </Link>
-      <Link to="/login">
-        login
-      </Link> */}
       <Routes>
         <Route
           exact
